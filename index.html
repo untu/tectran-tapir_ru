@@ -541,13 +541,44 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><strong>&copy; 2016-2018, РОССИННО</strong><br/><!--  consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p> -->
+                <p><strong>&copy; 2016-2017, РОССИННО</strong><br/><!--  consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p> -->
             </div>
         </div>
     </div>
 </section>
 
+
+<div class="modal" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">tectran-tapir теперь SIP3</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
+          <!-- <span aria-hidden="true">&times;</span> -->
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Новый адрес проекта <a href="https://sip3.io">https://SIP3.IO</a></p>
+        <img src="TT2SIP3.png" alt="tectran-tapir теперь sip3!" style="width: 100%;">
+        <p>Следите за новостями в <a href="https://twitter.com/sip3_io">Twitter ленте</a>.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="window.location.href='https://sip3.io';">Перейти на SIP3.io</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script src="js/jquery-2.1.1.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+        console.log('hello');
+        $('#myModal').modal('show');
+    });
+</script>
+
 <script src="js/pace.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/classie.js"></script>
